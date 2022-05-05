@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="output-screen">
+            <button onclick="Clear(), audio.play()">CL</button>
+            <button onclick="del(), audio.play()">DEL</button>
+            <button onclick="display('%'), audio.play()">%</button>
+            <button onclick="display('/'), audio.play()">/</button>
+            <button onclick="display('7'), audio.play()">7</button>
+            <button onclick="display('8'), audio.play()">8</button>
+            <button onclick="display('9'), audio.play()">9</button>
+            <button onclick="display('*'), audio.play()">*</button>
+            <button onclick="display('4'), audio.play()">4</button>
+            <button onclick="display('5'), audio.play()">5</button>
+            <button onclick="display('6'), audio.play()">6</button>
+            <button onclick="display('-'), audio.play()">-</button>
+            <button onclick="display('1'), audio.play()">1</button>
+            <button onclick="display('2'), audio.play()">2</button>
+            <button onclick="display('3'), audio.play()">3</button>
+            <button onclick="display('+'), audio.play()">+</button>
+            <button onclick="display('.'), audio.play()" class="full-stop">.</button>
+            <button onclick="display('0'), audio.play()">0</button>
+            <button onclick="Calculate(), audio.play()" class="equal-button">=</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
